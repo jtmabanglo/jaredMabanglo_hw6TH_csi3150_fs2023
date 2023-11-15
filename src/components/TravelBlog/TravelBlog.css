@@ -1,0 +1,35 @@
+.travel-blog-wrapper {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(221, 221, 221);
+  margin: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.travel-blog-wrapper h3 {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.travel-blog-wrapper p {
+  font-size: 25px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.image-container img {
+  height: 300px;
+  width: auto;
+}

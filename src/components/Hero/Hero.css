@@ -1,0 +1,23 @@
+.hero-container {
+  /* relative pathnames: https://www.ibm.com/docs/en/aix/7.2?topic=directories-directory-path-names */
+  /* css for background image: https://www.w3schools.com/css/css_background.asp */
+  background-image: url("../../assets/HeroSection-bg-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.hero-container h1 {
+  margin-top: 300px;
+  font-size: 100px;
+}
+
+.hero-container h2 {
+  font-size: 25px;
+}
